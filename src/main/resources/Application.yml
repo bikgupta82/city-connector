@@ -1,0 +1,5 @@
+route:
+  properties: CityConnectingRoad.txt
+result:
+  routeExists: "yes"
+  routeDoesNotExists: "no"
