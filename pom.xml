@@ -3,8 +3,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.springframework</groupId>
-    <artifactId>gs-spring-boot</artifactId>
+    <groupId>org.bikgupta82</groupId>
+    <artifactId>spring-boot-city-connector</artifactId>
     <version>0.1.0</version>
 
     <parent>
@@ -32,8 +32,7 @@
         </dependency>
         <!-- end::tests[] -->
     </dependencies>
-
-    <properties>
+	<properties>
         <java.version>1.8</java.version>
     </properties>
 
@@ -55,6 +54,15 @@
                 </executions>
             </plugin>
         </plugins>
+		<resources>
+			<resource>
+				 <directory>src/main/resources</directory>
+				 <filtering>true</filtering>
+				 <includes>
+					  <include>**/*.*</include>
+				 </includes>
+			</resource>
+		</resources>
     </build>
 
 </project>
